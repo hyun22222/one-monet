@@ -1,0 +1,758 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------------------- css reset code ---------------------- */
+
+
+.hed{
+	width: 100%;
+	height: 70px;
+	
+}
+
+.h-top{
+	width: 100%;
+	height: 70px;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+	border-bottom: 1px solid #e6e6e6;
+	box-sizing: border-box;
+}
+
+.h-top > :first-child{
+	padding: 8px;
+}
+.h-top > :nth-child(2){
+	font-weight: 800;
+}
+.h-top > :last-child{
+	padding: 8px;
+}
+
+main{
+	max-width: 1280px;
+    margin: 0 auto;
+    padding: 0px 16px;
+}
+
+.main-1{
+	margin: 0 auto;
+}
+
+.m1-text{
+	width: 100%;
+	height: 52px;
+	margin: 0 auto;
+    padding: 35px 0px 20px 0px
+}
+
+.m1-text > :first-child{
+	font-weight: 1000;
+    font-size: 18px;
+    height: 28px;
+}
+
+.m1-text > :last-child{
+	font-size: 16px;
+    height: 24px;
+}
+
+.m1-item{
+	width: 100%;
+	height: 294px;
+	margin: 0 auto;
+	display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.box-item{
+	width: 78.25px;
+	height: 142px;
+}
+
+.box-item-text{
+	padding: 4px;
+    text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 5px;
+}
+
+.box-item > :first-child:hover{
+	box-shadow: 0px 0px 20px palevioletred;
+    transition: 0.5s;
+}
+
+#image-0{
+    height: 80px;
+    background-image: url(https://om-public-static.s3.ap-northeast-2.amazonaws.com/media/images/1shw7ok9o6b/HZ3A0805.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 78.25px;
+	border-radius:  9999px;
+}
+
+#image-1{
+    height: 80px;
+    background-image: url(https://om-public-static.s3.ap-northeast-2.amazonaws.com/media/images/p8lemr4i0qs/2_dear-my-love.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 78.25px;
+	border-radius:  9999px;
+}
+
+#image-2{
+    height: 80px;
+    background-image: url(https://om-public-static.s3.ap-northeast-2.amazonaws.com/media/images/p8lemr4i0qs/3_happy-birthday.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 78.25px;
+	border-radius:  9999px;
+}
+
+#image-3{
+    height: 80px;
+    background-image: url(https://om-public-static.s3.ap-northeast-2.amazonaws.com/media/images/ibc2p7wkhjo/tulip_pink_5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 78.25px;
+	border-radius:  9999px;
+}
+
+#image-4{
+    height: 80px;
+    background-image: url(https://om-public-static.s3.ap-northeast-2.amazonaws.com/media/images/p8lemr4i0qs/5_dear-my-parents.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 78.25px;
+	border-radius:  9999px;
+}
+
+#image-5{
+    height: 80px;
+    background-image: url(https://om-public-static.s3.ap-northeast-2.amazonaws.com/media/images/p8lemr4i0qs/6_congratulations.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 78.25px;
+	border-radius:  9999px;
+}
+
+#image-6{
+    height: 80px;
+    background-image: url(https://om-public-static.s3.ap-northeast-2.amazonaws.com/media/images/p8lemr4i0qs/7_big-bouquet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 78.25px;
+	border-radius:  9999px;
+}
+
+#image-7{
+    height: 80px;
+    background-image: url(https://om-public-static.s3.ap-northeast-2.amazonaws.com/media/images/p8lemr4i0qs/8_lettering-cake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 78.25px;
+	border-radius:  9999px;
+}
+
+.m1-bt{
+	width: 100%;
+}
+
+.bt-1{
+	width: 100%;
+	height: 40px;
+	margin: 0 auto;
+	background-color: #d3d3d3;
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	border-radius:  10px;
+}
+
+.bt-1 > :first-child{
+	padding: 16px;
+}	
+
+
+#image-8{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/work-001_WpVjF3v.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-9{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/IMG_1269.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+.main-2{
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+
+
+.m2-text{
+	margin-bottom: 32px;
+}
+
+.m2-text > :first-child{
+	font-size: 18px;
+	margin-bottom: 8px;
+	font-weight: 800;
+}
+
+.m2-text > :last-child{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.m2-item{
+	display: flex;
+	gap: 20px;
+	overflow: auto;
+}
+
+.m3-item{
+	display: flex;
+	gap: 20px;
+	overflow: auto;
+}
+
+.box2-item-text > :first-child{
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+.box2-item-text > :last-child{
+	font-size: 16px;
+	font-weight: 700;
+}
+
+#image-10{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2021/09/mylittlealice_best_wkMi4PR.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-11{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/corn_thum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-12{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/%E1%84%85%E1%85%A5%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%82%E1%85%B5%E1%84%90%E1%85%A1_%E1%84%8A%E1%85%A5%E1%86%B7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-13{
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+	border-radius:  5px;
+	margin-bottom: 16px;
+	background-image: url(https://om-public-static.s3.ap-northeast-2.amazonaws.com/media/images/ryoyhbxueuk/ryoyhbxueuk);
+}
+
+.image-box{
+	width: 100%;
+	height: 50px;
+	display: flex;
+}
+
+#image-14{
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	border-radius:  5px;
+	margin-bottom: 16px;
+	background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/ohrora_rose_big_jcOefmh.jpg);
+}
+
+.image-box-text{
+	width: 100%;
+	height: 34px;
+	font-size: 12px;
+	padding: 8px 10px;
+}
+
+#image-15{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/corn_thum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-16{
+    height: 160px;
+    background-image: url(https://om-public-static.s3.ap-northeast-2.amazonaws.com/media/images/1shw7ok9o6b/2023may_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-17{
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+	border-radius:  5px;
+	margin-bottom: 16px;
+	background-image: url(https://om-public-static.s3.ap-northeast-2.amazonaws.com/media/images/ryoyhbxueuk/273843416_1040474769865127_1813123285240914061_n.jpg);
+}
+
+#image-18{
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+	border-radius:  5px;
+	margin-bottom: 16px;
+	background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/IMG_1269.jpg);
+}
+
+#image-19{
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+	border-radius:  5px;
+	margin-bottom: 16px;
+	background-image: url(https://om-public-static.s3.ap-northeast-2.amazonaws.com/media/images/ryoyhbxueuk/chicken_lovee_242981203_204181998478670_6251939129752146878_n.jpg);
+}
+
+#image-20{
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+	border-radius:  5px;
+	margin-bottom: 16px;
+	background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/rare_blue_S5FETBc.jpg);
+}
+
+#image-21{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/black-rose-thum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-22{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/pinkrose2019_thum2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-23{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/%E1%84%8F%E1%85%A9%E1%84%85%E1%85%A5%E1%86%AF%E1%84%85%E1%85%B5%E1%84%91%E1%85%B3%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%86%E1%85%B5_%E1%84%8A%E1%85%A5%E1%86%B7_eA2fAdM.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+
+#image-25{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2020/05/sokuk_thum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-26{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/IMG_0845-thum_1_STDsr72.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-27{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/IMG_8764_GMxsI7Y.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-28{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/work-001_EvTdtCh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-29{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/loveintherainre_thum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-30{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/12/elsa-tulip_thum_Nq1eV3D.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-31{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/08/channel-white_10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-32{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%84%8C%E1%85%A5%E1%84%87%E1%85%B3%E1%84%83%E1%85%B3-%E1%84%91%E1%85%B5%E1%86%BC%E1%84%8F%E1%85%B3-%E1%84%89%E1%85%AE%E1%84%80%E1%85%AE%E1%86%A8-S%E1%84%80%E1%85%A9%E1%86%B7%E1%84%83%E1%85%A9%E1%86%AF%E1%84%8B%E1%85%B5-%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8_%E1%84%8A%E1%85%A5%E1%86%B7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-33{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/%ED%95%91%ED%81%AC%EC%88%98%EA%B5%AD%EC%8D%B8%EB%84%A4%EC%9D%BC1_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+#image-34{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/%E1%84%85%E1%85%A9%E1%84%8C%E1%85%B3%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8B%E1%85%AF_%E1%84%8A%E1%85%A5%E1%86%B7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+#image-35{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/orchid_7_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+#image-36{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/eternity_thum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+#image-37{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/clusia_thum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+#image-38{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/auroracake_thum_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+#image-39{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/one_sum_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-40{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/summer-rain_9286.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-41{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/rainbow_cake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-42{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/tiara_cake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-43{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/jeju-carrot-cake_thum_7f51vAp_zgf64lS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-44{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/1000000077_detail_07.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-45{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/pink_bloom_MZCilCs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-46{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/08/IMG_1156-%E1%84%8A%E1%85%A5%E1%86%B7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+#image-47{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/stuckyi_thum_uuOeOpR.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-48{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/pencilcactus_thum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+
+#image-49{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/%E1%84%8A%E1%85%A5%E1%86%B7%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF_1VMXhPd_GqIKpMo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+#image-50{
+    height: 160px;
+    background-image: url(https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2022/07/rarepalettecake_thum_8HoDBps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+	border-radius:  10px;
+	margin-bottom: 16px;
+}
+.box2-item-text{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.f-top{
+	line-height: 10;
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	width: 100%;
+	height: 180px;
+	margin-top: 20px;
+	background-color: black;
+}
